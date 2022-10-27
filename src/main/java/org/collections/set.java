@@ -1,6 +1,7 @@
 package org.collections;
 
 import java.util.*;
+@SuppressWarnings("all")
 
 //set stores unique objects
 public class set {

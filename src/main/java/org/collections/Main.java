@@ -1,6 +1,8 @@
 package org.collections;
 import java.util.*;
 //Map stores key->value
+@SuppressWarnings("all")
+
 public class Main {
 
     public static void main(String[] args) {
