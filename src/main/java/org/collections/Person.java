@@ -19,7 +19,7 @@ public class Person implements Comparable<Person> {
     @Override
     public String toString(){
         return"Person{"+
-                "id:"+id+
+                "id:"+id+"\t"+
                 "name:"+name+"}";
     }
 
