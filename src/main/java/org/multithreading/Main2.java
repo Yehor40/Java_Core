@@ -1,12 +1,17 @@
 package org.multithreading;
 @SuppressWarnings("all")
+
 public class Main2 {
     private int counter;
     public static void main(String[] args)throws InterruptedException {
-        Main2 main2 = new Main2();
-        main2.doWork();
+//        Main2 main2 = new Main2();
+//        main2.doWork();
+        new Worker().main();
     }
-    public synchronized void increment(){counter++;}
+    public void increment(){
+        synchronized(this){
+            counter++;}
+    }
     public void doWork()throws InterruptedException{
         Thread tread1 = new Thread(new Runnable() {
             @Override
