@@ -3,7 +3,7 @@ package org.multithreading;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-
+@SuppressWarnings("all")
 public class Main3 {
     public static void main(String[] args)throws InterruptedException {
         ExecutorService executor = Executors.newFixedThreadPool(2);
