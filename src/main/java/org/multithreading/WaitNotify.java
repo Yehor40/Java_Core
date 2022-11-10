@@ -3,7 +3,7 @@ package org.multithreading;
 import java.util.Scanner;
 
 @SuppressWarnings("all")
-public class WaitAndNotify {
+public class WaitNotify {
     public void produce(){
         synchronized (this){
             System.out.println("producer thread started");
