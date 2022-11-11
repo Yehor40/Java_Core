@@ -17,8 +17,6 @@ public class Main7 {
             Thread.sleep(1500);
             cdl.countDown();
         }
-
-
     }
 }
 class Processor implements Runnable{
