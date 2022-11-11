@@ -1,7 +1,7 @@
 package org.multithreading;
 
-import java.util.LinkedList;
-import java.util.Queue;
+
+
 @SuppressWarnings("all")
 
 public class Main6 {
