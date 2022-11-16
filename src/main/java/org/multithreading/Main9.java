@@ -29,8 +29,8 @@ public class Main9 {
 }
 //singleton
 class Connection{
-    private static Connection cn = new Connection();
-    private Semaphore smf = new Semaphore(10);
+    private static final Connection cn = new Connection();
+    private final Semaphore smf = new Semaphore(10);
     private int conCount = 0;
     private Connection(){
 
