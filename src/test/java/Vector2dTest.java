@@ -16,7 +16,6 @@ public class Vector2dTest {
         //length should be zero
         Assert.assertEquals(0,v1.lenght(),eps);
     }
-
     @Test
     public void ZeroX(){
         //x should be zero
