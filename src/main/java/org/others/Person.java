@@ -33,4 +33,12 @@ public class Person {
     public void sayHello(){
         System.out.println("Hello"+name+"with id:"+id);
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
